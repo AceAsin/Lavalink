@@ -10,7 +10,7 @@
 
 ```nvm install --lts```
 
-## [Java Development Kit]() & [Java Runtime Environment]()
+## [Java Runtime Environment]() & [Java Development Kit]()
 
 ```sudo apt update```
 
