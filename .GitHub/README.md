@@ -14,9 +14,9 @@
 
 ```sudo apt update```
 
-```sudo apt install openjdk-13-jdk-headless```
-
 ```sudo apt install openjdk-13-jre-headless```
+
+```sudo apt install openjdk-13-jdk-headless```
 
 
 ## [Process Manager 2](https://github.com/Unitech/pm2)
