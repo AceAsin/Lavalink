@@ -24,6 +24,7 @@
 
 - ```pm2 start Lavalink```
 - ```pm2 stop Lavalink```
+- ```pm2 delete Lavalink```
 - ```pm2 log Lavalink```
 - ```pm2 list```
 
