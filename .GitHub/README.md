@@ -13,7 +13,7 @@
 ## [Node Version Manager](https://github.com/nvm-sh/nvm)
 
 1. ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash```
-2. ```Restart Terminal Window)```
+2. ```Restart Secure SHell (SSH)```
 3. ```nvm i --lts```
 
 ## [Process Manager 2](https://github.com/Unitech/pm2)
