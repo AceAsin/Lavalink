@@ -26,8 +26,4 @@
 - ```pm2 stop Lavalink```
 - ```pm2 delete Lavalink```
 - ```pm2 log Lavalink```
-- ```pm2 list```
-
-## Note
-
-- You must restart Secure SHell (SSH) after installing Node Version Manager (NVM) in order to install Long Term Support (LTS).
+- ```pm2 [list|ls|status]```
