@@ -4,7 +4,9 @@
   "description": "",
   "main": "Lavalink.jar",
   "scripts": {
-    "start": "pm2 start Lavalink.jar --name Lavalink --interpreter java --node-args -jar",
+    "build": "pm2 start Lavalink.jar --name Lavalink --interpreter java --node-args -jar",
+    "start": "pm2 start Lavalink",
+    "stop": "pm2 stop Lavalink",
     "test": "java -jar Lavalink.jar"
   },
   "repository": {
