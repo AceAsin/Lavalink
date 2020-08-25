@@ -1,8 +1,9 @@
 # [Lavalink](https://github.com/Frederikam/Lavalink) - [Google Cloud](https://cloud.google.com): [Compute Engine](https://console.cloud.google.com)
 
-## [Project Reposity](https://github.com/AceAsin/Lavalink)
+## [Node Version Manager](https://github.com/nvm-sh/nvm)
 
-1. ```git clone https://github.com/AceAsin/Lavalink.git```
+1. ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash```
+2. ```nvm i --lts```
 
 ## [Java Runtime Environment](https://jdk.java.net/) & [Java Development Kit](https://jdk.java.net/)
   
@@ -10,10 +11,9 @@
 2. ```sudo apt install openjdk-13-jre-headless```
 3. ```sudo apt install openjdk-13-jdk-headless```
 
-## [Node Version Manager](https://github.com/nvm-sh/nvm)
+## [Project Reposity](https://github.com/AceAsin/Lavalink)
 
-1. ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash```
-2. ```nvm i --lts```
+1. ```git clone https://github.com/AceAsin/Lavalink.git```
 
 ## [Node Package Manager](https://github.com/npm/cli)
 
