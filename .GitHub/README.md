@@ -13,8 +13,7 @@
 ## [Node Version Manager](https://github.com/nvm-sh/nvm)
 
 1. ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash```
-2. ```Restart Secure SHell (SSH)```
-3. ```nvm i --lts```
+2. ```nvm i --lts```
 
 ## [Node Package Manager](https://github.com/npm/cli)
 
@@ -27,3 +26,7 @@
 - ```pm2 stop Lavalink```
 - ```pm2 log Lavalink```
 - ```pm2 list```
+
+## Note
+
+- You must restart Secure SHell (SSH) after installing Node Version Manager (NVM) in order to install Long Term Support (LTS).
