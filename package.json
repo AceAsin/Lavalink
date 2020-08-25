@@ -1,0 +1,26 @@
+{
+  "name": "lavalink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Lavalink.jar",
+  "scripts": {
+    "start": "pm2 start Lavalink.jar --name Lavalink --interpreter java --node-args -jar",
+    "test": "java -jar Lavalink.jar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AceAsin/Lavalink.git"
+  },
+  "keywords": [
+    "Lavalink"
+  ],
+  "author": "Ace Asin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AceAsin/Lavalink/issues"
+  },
+  "homepage": "https://github.com/AceAsin/Lavalink#readme",
+  "dependencies": {
+    "pm2": "^4.4.1"
+  }
+}
