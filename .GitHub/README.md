@@ -16,7 +16,14 @@
 2. ```Restart Secure SHell (SSH)```
 3. ```nvm i --lts```
 
-## [Process Manager 2](https://github.com/Unitech/pm2)
+## [Node Package Manager](https://github.com/npm/cli)
 
 1. ```npm i pm2 --g```
-2. ```pm2 start Lavalink.jar --name Lavalink --interpreter java --node-args -jar```
+2. ```npm run build```
+
+## [Process Manager 2](https://github.com/Unitech/pm2)
+
+- ```pm2 start Lavalink```
+- ```pm2 stop Lavalink```
+- ```pm2 log Lavalink```
+- ```pm2 list```

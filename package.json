@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/AceAsin/Lavalink/issues"
   },
-  "homepage": "https://github.com/AceAsin/Lavalink#readme",
-  "dependencies": {
-    "pm2": "^4.4.1"
-  }
+  "homepage": "https://github.com/AceAsin/Lavalink#readme"
 }
