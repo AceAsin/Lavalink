@@ -1,0 +1,9 @@
+/.idea/
+/LavalinkServer.iml
+/logs/
+/application.yml
+/target/
+/debug_token
+build/*
+/out/
+VERSION.txt
