@@ -1,0 +1,3 @@
+[subnodule 'Lavalink']
+  path = Lavalink
+  url = https://github.com/Frederikam/Lavalink
