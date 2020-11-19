@@ -6,10 +6,11 @@
 2. ```nvm i --lts```
 
 ## [Java Runtime Environment](https://jdk.java.net/) & [Java Development Kit](https://jdk.java.net/)
-  
+
 1. ```sudo apt update```
 2. ```sudo apt install openjdk-13-jre-headless```
 3. ```sudo apt install openjdk-13-jdk-headless```
+4. ```sudo apt upgrade```
 
 ## [Project Reposity](https://github.com/AceAsin/Lavalink)
 
