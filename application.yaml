@@ -1,20 +1,20 @@
 server: # REST and WS server
-  port: 8000
+  port: 2333
   address: 0.0.0.0
 lavalink:
   server:
-    password: 'X(:n=J`b{kah7P&3'
+    password: "youshallnotpass"
     sources:
       youtube: true
       bandcamp: true
       soundcloud: true
       twitch: true
       vimeo: true
-      mixer: true
       http: true
       local: false
     bufferDurationMs: 400
     youtubePlaylistLoadLimit: 6 # Number of pages at 100 each
+    playerUpdateInterval: 5 # How frequently to send player updates to clients, in seconds
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
     gc-warnings: true
@@ -32,15 +32,16 @@ metrics:
 
 sentry:
   dsn: ""
+  environment: ""
 #  tags:
 #    some_key: some_value
 #    another_key: another_value
 
-# logging:
-#   file:
-#     max-history: 5
-#     max-size: 5MB
-#   path: ./logs/
+logging:
+  file:
+    max-history: 30
+    max-size: 1GB
+  path: ./logs/
 
   level:
     root: INFO
