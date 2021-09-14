@@ -1,6 +1,6 @@
 # [Lavalink](https://github.com/freyacodes/Lavalink)
 
-Helpful commands and documentation to properly get Lavalink to run on Ubuntu 18/20 (LTS). It's also possible to run Lavalink with Ubuntu 16 (LTS) and Debian 9/10, but you might run into a few issues. All zeros for the tunnel must be replaced with the appropriate addresses when setting up a route planner. These can either be the **Server IPv4 Address**, **Client IPv4 Address**, or **Routed /48**.
+Helpful commands and documentation to properly get Lavalink to run on Ubuntu 18/20 (LTS). It's also possible to run Lavalink with Ubuntu 16 (LTS) and Debian 9/10, but you might encounter a few issues. All zeros for the tunnel must be replaced with the appropriate addresses when setting up a route planner. These can either be the **Server IPv4 Address**, **Client IPv4 Address**, or **Routed /48**.
 
 ## Information
 
@@ -105,15 +105,15 @@ echo 'net.ipv6.ip_nonlocal_bind = 1' >> /etc/sysctl.conf
 /etc/network/interfaces
 ```
 
-```json
+```yaml
 auto he-ipv6
 iface he-ipv6 inet6 v4tunnel
-        address 0:0:0::2 // Routed /48
+        address 0:0:0::2 # Routed /48
         netmask 64
-        endpoint 0.0.0.0 // Server IPv4 Address
-        local 0.0.0.0 // Client IPv4 Address
+        endpoint 0.0.0.0 # Server IPv4 Address
+        local 0.0.0.0 # Client IPv4 Address
         ttl 255
-        gateway 0:0:0::1 // Routed /48
+        gateway 0:0:0::1 # Routed /48
 ```
 
 ### Netplan (Linux)
@@ -132,7 +132,7 @@ network:
       local: 0.0.0.0 # Client IPv4 Address
       addresses:
         - '0:0:0::/48' # Routed /48
-      gateway6: '0:0:0::1' #Routed /48
+      gateway6: '0:0:0::1' # Routed /48
 ```
 
 ### Route
