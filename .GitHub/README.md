@@ -5,14 +5,21 @@ Helpful commands and documentation to properly get Lavalink to run on Ubuntu 18/
 ## Information
 
 ```txt
-Version:        6e925523293b81708ea1a577b16ff9f9c4167a49-SNAPSHOT
-Build:          1244
-Build time:     09.09.2021 19:49:32 UTC
+   .   _                  _ _       _    __ _ _
+  /\\ | | __ ___   ____ _| (_)_ __ | | __\ \ \ \
+ ( ( )| |/ _` \ \ / / _` | | | '_ \| |/ / \ \ \ \
+  \\/ | | (_| |\ V / (_| | | | | | |   <   ) ) ) )
+   '  |_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\ / / / /
+=========================================/_/_/_/
+
+Version:        8ac9b9576910aabff7a683195cb1cd904bb59ee8-SNAPSHOT
+Build:          1337
+Build time:     26.01.2022 11:01:52 UTC
 Branch          dev
-Commit:         6e92552
-Commit time:    09.09.2021 19:46:54 UTC
-JVM:            13.0.2
-Lavaplayer      1.3.94-original
+Commit:         8ac9b95
+Commit time:    26.01.2022 10:58:41 UTC
+JVM:            13
+Lavaplayer      1.3.97-original
 ```
 
 ## Setup
